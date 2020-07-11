@@ -6,3 +6,7 @@
   <% end %>
 </ul>
 
+<%= form_tag do %>
+  <%= text_field_tag :product, nil, placeholder: "Add Product" %>
+  <%= submit_tag "add to cart" %>
+<% end %>  
